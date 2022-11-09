@@ -7,8 +7,7 @@
 
 void FillArrayEight (int[] array)
 {
-    int i = 0;
-    for (i = 0; i < 7; i++);
+    for (int i = 0; i < 8; i++)
     array[i] = new Random().Next(1, 10);
 }
 
@@ -22,3 +21,4 @@ Console.Clear();
 int [] array = new int[8];
 FillArrayEight(array);
 PrintArray(array);
+Console.WriteLine();
